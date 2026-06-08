@@ -318,11 +318,10 @@ h3 {
 .art-card img,
 .product-card img {
   width: 100%;
-  height: 220px;
+  height: 350px;
   object-fit: contain;
   background: #111;
   display: block;
-  border: 1px solid var(--border);
 }
 
 /* Móviles */
