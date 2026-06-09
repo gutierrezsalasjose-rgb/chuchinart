@@ -298,9 +298,11 @@ h3 {
 
   .hero,
   .split,
-  .grid {
-    grid-template-columns: 1fr;
-  }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
 
   .hero {
     padding-top: 58px;
