@@ -200,16 +200,19 @@ h3 {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 22px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 22px;
 }
 
-.art-card,
-.product-card {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  padding: 18px;
+.art-card img,
+.product-card img {
+  width: 100%;
+  height: 360px;
+  object-fit: contain;
+  background: #111;
+  display: block;
+  margin: 0 auto;
 }
 
 .placeholder,
