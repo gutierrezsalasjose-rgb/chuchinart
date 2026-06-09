@@ -337,3 +337,27 @@ h3 {
     height: 420px;
   }
 }
+.gallery-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 22px;
+}
+
+.art-card {
+  width: auto !important;
+}
+
+.art-card img {
+  width: 100%;
+  height: 360px;
+  object-fit: contain;
+  background: #111;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .gallery-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
