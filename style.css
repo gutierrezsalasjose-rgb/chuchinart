@@ -197,7 +197,7 @@ h3 {
 }
 .hero-card p,
 .hero-card span {
-  color: var(--muted);
+color: #ff8c33;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: .78rem;
