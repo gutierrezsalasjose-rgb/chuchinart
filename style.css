@@ -388,14 +388,4 @@ h3 {
   grid-template-columns: repeat(3, 1fr) !important;
   gap: 22px !important;
 }
-.hero-card p {
-    color: #ff8c33 !important;
-}
 
-.hero-card span {
-    color: #ff8c33 !important;
-}
-
-.hero-card h2 {
-    color: #ff6a00 !important;
-}
