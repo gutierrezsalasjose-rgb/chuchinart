@@ -198,7 +198,8 @@ h3 {
 .hero-card p,
 .hero-card span,
 .feature-box p,
-.feature-box span {
+.feature-box span
+.feature-box small {
     color: #ff8c33 !important;
     text-transform: uppercase;
     letter-spacing: 2px;
