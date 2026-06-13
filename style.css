@@ -169,8 +169,11 @@ h3 {
   min-height: 360px;
   border: 1px solid var(--border);
   background:
-    linear-gradient(135deg, rgba(255,59,31,.26), transparent 45%),
-    var(--panel);
+  linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+  url("IMG_6055.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
   padding: 32px;
   display: flex;
   flex-direction: column;
