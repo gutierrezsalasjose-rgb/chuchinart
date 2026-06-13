@@ -196,17 +196,19 @@ h3 {
     justify-content: flex-end;
 }
 .hero-card p,
-.hero-card span {
-color: #ff8c33;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: .78rem;
+.hero-card span,
+.feature-box p,
+.feature-box span {
+    color: #ff8c33 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .78rem;
 }
 
-.hero-card h2 {
-    color: #ff6a00;
+.hero-card h2,
+.feature-box h2 {
+    color: #ff6a00 !important;
 }
-
 .section {
   padding: 80px 6vw;
   border-top: 1px solid var(--border);
